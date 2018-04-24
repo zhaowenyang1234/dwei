@@ -1,0 +1,462 @@
+.comment_container{
+  .header{
+    z-index: 1000;
+    height: 70px;
+    width: 1170px;
+    padding:0 15px ;
+    margin: 0 31px;
+    background: white;
+    .header_img{
+      float: left;
+      width:200px;
+      height:40px;
+      margin-top: 8px;
+    }
+    .header_left{
+      float: left;
+      margin-left: 150px;
+      width:151px;
+      height: 41px;
+      margin-top: 20px;
+
+      img{
+        width: 20px;
+        height: 20px;
+        vertical-align: middle;
+      }
+      span{
+        font-weight: bold;
+        color: black;
+      }
+      span:last-child:hover{
+        color:red
+      }
+
+    }
+    .header_right{
+      float: right;
+      width: 650px;
+      height:41px;
+      margin-top: 22px;
+      a{
+        width: 62px;
+        height: 40px;
+        padding: 10px 15px;
+        font-weight: bolder;
+        color: black;
+      }
+      a:hover{
+        transition-duration:0.5s ;
+        color:red
+      }
+      a:first-child{
+        color: red;
+      }
+      .merchant{
+        padding: 5px;
+        border: 1px solid red;
+        background: red;
+        color: white;
+        border-radius: 5px;
+      }
+
+    }
+
+
+  }
+  .comment_main{
+    position: relative;
+    .comment_main_header{
+      box-sizing: border-box;
+      padding:10px 36px 0;
+      width: 1263px;
+      height: 140px;
+      .comment_header_left{
+        margin: 10px 0 0 20px;
+        width: 497px;
+        height: 60px;
+        padding-top: 60px;
+        float: left;
+        .comment_header_left_shop{
+          font-size: 35px;
+          font-weight: bold;
+        }
+        .comment_header_left_time{
+          margin-left: 10px;
+          font-size: 14px;
+          color: #898989;
+          span{
+            color: black;
+          }
+        }
+        .order_time{
+          margin-left: 10px;
+          font-size: 14px;
+          color: #898989;
+          span{
+            color: red;
+          }
+        }
+      }
+      .comment_header_right{
+        float: right;
+        .comment_header_right_item{
+          margin-top: 65px;
+          width: 100px;
+          height: 44px;
+          float: left;
+          text-align: center;
+
+          p{
+            font-size: 14px;
+            color: red;
+          }
+          span{
+            font-size: 14px;
+          }
+        }
+        .box_interval{
+          margin-top: 70px;
+          color: #898989;
+          float: left;
+        }
+      }
+    }
+    .comment_header_nav{
+    width:100%;
+    height: 40px;
+    background: #323434;
+      .comment_nav{
+        width: 1200px;
+        height: 40px;
+        margin: 0 31px;
+        li{
+          float: left;
+          width: 140px;
+          height:40px;
+          text-align: center;
+          a{
+            width: 100%;
+            height:100%;
+            color: white;
+            line-height: 40px;
+          }
+        }
+      }
+
+    }
+    .comment_main_content{
+      margin: 22px 31px 0;
+      width: 100%;
+      .server_item{
+        width: 960px;
+        height: 260px;
+        h3{
+          margin-left: 29px;
+          width: 912px;
+          height: 40px;
+          border-bottom: 1px solid #c6c6c6;
+          span{
+            padding-bottom: 16px;
+            border-bottom: 4px solid red;
+          }
+        }
+        .server_item_info{
+          img{
+            float: left;
+            margin: 25px;
+            width: 150px;
+            height: 150px;
+          }
+          .server_item_text{
+            float: left;
+            width: 730px;
+            height: 146px;
+            margin-top: 25px;
+            .server_item_text_title{
+              margin-top: 10px;
+              width: 210px;
+              height: 42px;
+              font-size: 18px;
+            }
+            .server_item_text_info{
+              width: 608px;
+              height: 42px;
+              color:#929292;
+              font-size: 14px;
+            }
+            .shop_info{
+              .server_shop_price {
+                float: left;
+                color: red;
+                font-weight: bold;
+                span {
+                  font-size: 25px;
+                }
+              }
+              .server_shop_price2{
+                float: left;
+                color: darkgray;
+                margin-top: 10px;
+                margin-left: 20px;
+                span{
+                  text-decoration:line-through ;
+                }
+              }
+              .server_shop_number{
+                float: right;
+                color: darkgray;
+                margin-top: 10px;
+              }
+            }
+          }
+        }
+      }
+      .gray_space{
+        display: block;
+        background: #f8f8f8;
+        height: 70px;
+        width: 980px;
+      }
+      .comment_shopInfo{
+        height: 212px;
+        width: 980px;
+        h3{
+          margin-top: 10px;
+          margin-left: 29px;
+          width: 912px;
+          height: 40px;
+          border-bottom: 1px solid #c6c6c6;
+          span{
+            padding-bottom: 16px;
+            border-bottom: 4px solid red;
+          }
+        }
+        .comment_shopInfo_title{
+          height: 40px;
+          line-height: 40px;
+          font-size: 18px;
+          margin: 10px 25px;
+        }
+        .comment_shopInfo_content{
+          line-height: 28px;
+          margin: 10px 25px 25px;
+          font-size: 16px;
+        }
+
+      }
+      .small_gray_space{
+        display: block;
+        background: #f8f8f8;
+        height: 10px;
+        width: 980px;
+      }
+      .user_comment{
+        width: 980px;
+        h3{
+          margin-top: 10px;
+          margin-left: 29px;
+          width: 912px;
+          height: 40px;
+          border-bottom: 1px solid #c6c6c6;
+          font-size: 14px;
+          span{
+            padding-bottom: 16px;
+            border-bottom: 4px solid red;
+            font-size: 18px;
+            font-weight: bold;
+
+          }
+        }
+        .user_comment_list{
+          .user_comment_item{
+            width: 96%;
+            margin: 0 3%;
+            padding-top: 20px;
+            height: 200px;
+            border-bottom: solid 1px #b7b7b7;
+            img{
+              float: left;
+              margin: 10px;
+              width: 40px;
+              height: 40px;
+            }
+            .user_comment_item_info{
+              float:left;
+              width: 847px;
+              height: 137px;
+              margin-left: 20px;
+              margin-top: 20px;
+              .user_comment_username{
+                width: 847px;
+                height: 28px;
+              }
+              .start_time{
+                .start{
+                  i{
+                    font-size: 13px;
+                  }
+                  .icon-xingxing{
+                   color: red;
+                  }
+                  .gray{
+                    color: gray;
+                  }
+                }
+                .time{
+                  margin-left: 10px;
+                  font-size: 14px;
+                }
+              }
+              .comment_content{
+                margin: 5px 0;
+              }
+              .comment_address{
+                font-size: 14px;
+                color: #898989;
+              }
+            }
+          }
+        }
+      }
+    }
+    .comment_page{
+      margin-top: 40px;
+      margin-left: 200px;
+      span{
+        display: inline-block;
+        width: 33px;
+        height: 28px;
+        border: 1px solid #a1a1a1;
+        margin-left: 5px;
+
+        text-align: center;
+        line-height:28px ;
+      }
+      .red{
+        background: red;
+      }
+      .first_page,.last_page{
+        display: inline-block;
+        width: 78px;
+        height: 28px;
+        border: 1px solid #a1a1a1;
+      }
+
+    }
+    .comment_right{
+      .comment_right_first{
+        position: absolute;
+        top:240px;
+        right:20px;
+        float: right;
+        width:230px;
+        height: 290px;
+        background-image: url('http://www.daoway.cn/pcimages/fuwushang2_07.jpg');
+        background-repeat: no-repeat;
+        img{
+          margin-top: 50px;
+          margin-left: 55px;
+          width: 115px;
+          height:115px;
+        }
+      }
+      .comment_right_second{
+        position: absolute;
+        top:540px;
+        right:20px;
+        float: right;
+        width:230px;
+        height: 290px;
+        background-image: url('http://www.daoway.cn/pcimages/fuwushang2_10.jpg');
+        background-repeat: no-repeat;
+        img{
+          margin-top: 50px;
+          margin-left: 55px;
+          width: 115px;
+          height:115px;
+        }
+      }
+    }
+
+
+  }
+  .footer{
+    width: 100%;
+    .footer_top{
+      width: 100%;
+      .guarantee{
+        text-align: center;
+        width: 100%;
+        padding-top: 60px;
+        background: #fff;
+        clear: both;
+        h2{
+          font-size: 30px;
+          font-family: "微软雅黑";
+          font-weight: 800;
+          span{
+            color:red;
+          }
+        }
+        .guarantee_info{
+          font-size: 22px;
+          color: #3d3838;
+          margin: 0;
+        }
+
+      }
+      .server{
+        padding-top:20px;
+        text-align: center;
+        font-size: 20px;
+        span{
+          margin-left: 10px;
+          i{
+            font-size: 22px;
+            color: #3e8026;
+            font-weight: bold;
+          }
+        }
+      }
+      .hot_city{
+        padding-top: 50px;
+        height: 120px;
+        width:100%;
+        dl{
+          .hot_city_title{
+            margin-left: 50px;
+            float: left;
+            font-family: " 微软雅黑";
+            font-size: 18px;
+            font-weight: bold;
+          }
+          .hot_city_content{
+            width: 1090px;
+            height: 90px;
+            margin-left: 30px;
+            float: left;
+            a{
+              display: inline-block;
+              width: 98px;
+              height: 30px;
+              color:gray;
+            }
+          }
+        }
+      }
+      .footer_bottom{
+        background: #ebebeb;
+        .copyRight{
+          width: 1200px;
+          height: 40px;
+          margin: 0 31px;
+          color: #898989;
+        }
+      }
+
+
+    }
+  }
+
+}

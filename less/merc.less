@@ -1,0 +1,224 @@
+.merchant_container{
+  .header{
+    z-index: 1000;
+    height: 70px;
+    width: 1170px;
+    padding:0 15px ;
+    margin: 0 31px;
+    background: white;
+    .header_img{
+      float: left;
+      width:200px;
+      height:40px;
+      margin-top: 8px;
+    }
+    .header_left{
+      float: left;
+      margin-left: 150px;
+      width:151px;
+      height: 41px;
+      margin-top: 20px;
+
+      img{
+        width: 20px;
+        height: 20px;
+        vertical-align: middle;
+      }
+      span{
+        font-weight: bold;
+        color: black;
+      }
+      span:last-child:hover{
+        color:red
+      }
+
+    }
+    .header_right{
+      float: right;
+      width: 650px;
+      height:41px;
+      margin-top: 22px;
+      a{
+        width: 62px;
+        height: 40px;
+        padding: 10px 15px;
+        font-weight: bolder;
+        color: black;
+      }
+      a:hover{
+        transition-duration:0.5s ;
+        color:red
+      }
+      a:first-child{
+        color: red;
+      }
+      .merchant{
+        padding: 5px;
+        border: 1px solid red;
+        background: red;
+        color: white;
+        border-radius: 5px;
+      }
+
+    }
+
+
+  }
+  .merchant_content{
+    position: relative;
+    width: 100%;
+    margin: 0 31px;
+    .merchant_title{
+      width: 1200px;
+      height: 84px;
+      font-size: 18px;
+      line-height: 85px;
+    }
+    .merchant_main{
+      width: 970px ;
+      .merchant_main_list{
+        width: 970px ;
+        .merchant_main_item{
+          float: left;
+          border: 1px solid gainsboro;
+          padding: 10px;
+          width: 210px;
+          height: 270px;
+          margin: 0 10px 10px 0;
+          img{
+            height: 210px;
+            width:210px;
+          }
+          .merchant_main_title{
+            margin-top: 15px;
+            width: 210px;
+            height: 26px;
+            font-size: 16px;
+            font-weight: bold;
+          }
+          .merchant_main_info{
+            font-size: 12px;
+            color: #929292;
+          }
+          .merchant_main_good{
+            float: right;
+          }
+        }
+        .addShadow{
+          box-shadow: 3px 3px 3px #cccccc;
+        }
+      }
+    }
+    .merchant_right{
+      position: absolute;
+      right:65px;
+      top:85px;
+      width:230px;
+      height:600px ;
+      img{
+        width: 230px;
+        height: 298px;
+      }
+      .merchant_right_code{
+        width: 230px;
+        height: 290px;
+        background: pink;
+        background-image: url('http://www.daoway.cn/pcimages/tuijianfuwushang_06.jpg');
+        img{
+          width: 130px ;
+          height: 130px;
+          margin-top: 55px;
+          margin-left: 50px;
+        }
+      }
+    }
+    .merchant_more{
+      float: left;
+      border: 1px solid gainsboro;
+      width: 200px;
+      height: 50px;
+      margin: 50px 375px;
+      color:gainsboro ;
+      text-align: center;
+      line-height: 50px;
+
+    }
+  }
+  .footer{
+    width: 100%;
+    .footer_top{
+      width: 100%;
+      .guarantee{
+        text-align: center;
+        width: 100%;
+        padding-top: 60px;
+        background: #fff;
+        clear: both;
+        h2{
+          font-size: 30px;
+          font-family: "微软雅黑";
+          font-weight: 800;
+          span{
+            color:red;
+          }
+        }
+        .guarantee_info{
+          font-size: 22px;
+          color: #3d3838;
+          margin: 0;
+        }
+
+      }
+      .server{
+        padding-top:20px;
+        text-align: center;
+        font-size: 20px;
+        span{
+          margin-left: 10px;
+          i{
+            font-size: 22px;
+            color: #3e8026;
+            font-weight: bold;
+          }
+        }
+      }
+      .hot_city{
+        padding-top: 50px;
+        height: 120px;
+        width:100%;
+        dl{
+          .hot_city_title{
+            margin-left: 50px;
+            float: left;
+            font-family: " 微软雅黑";
+            font-size: 18px;
+            font-weight: bold;
+          }
+          .hot_city_content{
+            width: 1090px;
+            height: 90px;
+            margin-left: 30px;
+            float: left;
+            a{
+              display: inline-block;
+              width: 98px;
+              height: 30px;
+              color:gray;
+            }
+          }
+        }
+      }
+      .footer_bottom{
+        background: #ebebeb;
+        .copyRight{
+          width: 1200px;
+          height: 40px;
+          margin: 0 31px;
+          color: #898989;
+        }
+      }
+
+
+    }
+  }
+}
